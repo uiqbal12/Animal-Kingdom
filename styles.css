@@ -1,0 +1,79 @@
+body {
+  text-align: center;
+  background-color: #92b4ec;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #00ffab;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #fff;
+}
+
+footer {
+  color: #dbedf3;
+  font-family: sans-serif;
+}
+
+.l {
+  background-image: url("images/lion.png");
+  background-size: cover;
+  text-size-adjust: 20%;
+}
+
+.m {
+  background-image: url("images/monkey.png");
+  background-size: cover;
+}
+
+.w {
+  background-image: url("images/wolf.png");
+  background-size: cover;
+}
+
+.d {
+  background-image: url("images/dolphin.png");
+  background-size: cover;
+}
+
+.e {
+  background-image: url("images/elephant.png");
+  background-size: cover;
+}
+
+.c {
+  background-image: url("images/cat.png");
+  background-size: cover;
+}
+
+.p {
+  background-image: url("images/pig.png");
+  background-size: cover;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.animal {
+  outline: none;
+  border: 10px solid #404b69;
+  font-size: 3rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #00ffab;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: right;
+  margin: 10px;
+  background-color: #001d6e;
+}
